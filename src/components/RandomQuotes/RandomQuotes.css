@@ -1,0 +1,72 @@
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frame {
+  padding: 25px;
+  border: 2px solid white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container {
+  max-width: 400px;
+  padding: 35px 35px 20px 35px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+}
+
+.quoteBox {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.quote {
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.author {
+  text-align: end;
+  font-size: 16px;
+}
+.bottomBox {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.icons img {
+  filter: invert(100%);
+}
+.icons div {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.twitterIcon img {
+  width: 15px;
+  margin-top: 3px;
+}
+.colorIcon img {
+  width: 20px;
+}
+button {
+  border: none;
+  color: white;
+  padding: 7.5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
