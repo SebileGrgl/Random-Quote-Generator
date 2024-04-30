@@ -1,8 +1,8 @@
 import { useState } from "react";
-import quotes from "../assets/quotes.json";
+import quotes from "../../db/quotes.json";
 import "./RandomQuotes.css";
-import twitterIcon from "../assets/twitter.png";
-import colorIcon from "../assets/colour.png";
+import twitterIcon from "../../assets/twitter.png";
+import colorIcon from "../../assets/colour.png";
 
 export default function RandomQuotes() {
   const [quote, setQuote] = useState(getRandomQuote);
@@ -20,7 +20,7 @@ export default function RandomQuotes() {
   return (
     <>
       <div
-        className="mainContainer"
+        className="main-container"
         style={{
           background: `linear-gradient(to right bottom, ${color}, rgb(22, 1, 70))`,
         }}
@@ -28,7 +28,7 @@ export default function RandomQuotes() {
         <div className="frame">
           <div className="container" style={{ color: color }}>
             <div
-              className="quoteBox"
+              className="quote-box"
               style={{ borderBottom: `2px solid ${color} ` }}
             >
               <p className="quote">
@@ -39,10 +39,10 @@ export default function RandomQuotes() {
               </p>
             </div>
 
-            <div className="bottomBox">
+            <div className="bottom-box">
               <div className="icons">
                 <div
-                  className="twitterIcon"
+                  className="twitter-icon"
                   style={{
                     backgroundColor: color,
                   }}
@@ -53,7 +53,7 @@ export default function RandomQuotes() {
                     <img src={twitterIcon} alt="twitter-icon" />
                   </a>
                 </div>
-                <div className="colorIcon" style={{ backgroundColor: color }}>
+                <div className="color-icon" style={{ backgroundColor: color }}>
                   <img
                     onClick={() => {
                       setColor(getRandomColor);

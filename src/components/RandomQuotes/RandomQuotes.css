@@ -1,4 +1,4 @@
-.mainContainer {
+.main-container {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -19,7 +19,7 @@
   border-radius: 8px;
 }
 
-.quoteBox {
+.quote-box {
   text-align: center;
   font-size: 20px;
   padding-bottom: 40px;
@@ -33,7 +33,7 @@
   text-align: end;
   font-size: 16px;
 }
-.bottomBox {
+.bottom-box {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
@@ -56,11 +56,11 @@
   border-radius: 8px;
   cursor: pointer;
 }
-.twitterIcon img {
+.twitter-icon img {
   width: 15px;
   margin-top: 3px;
 }
-.colorIcon img {
+.color-icon img {
   width: 20px;
 }
 button {

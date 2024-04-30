@@ -1,1 +1,1 @@
-# React + Vite
+Random Quote Generator
